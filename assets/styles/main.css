@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+* {
+  color: wheat;
+  border-color: wheat;
+  border-radius: 15px;
+  font-family: "MedievalSharp";
+  text-align: center;
+}
+
+html {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-image: url("img/camp.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body {
+  align-items: center;
+
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 90vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  padding: 20px;
+}
+
+input {
+  background-color: rgba(1, 1, 1, 0.8);
+  border-color: transparent;
+  display: flex;
+  font-size: 50px;
+}
+button {
+  background-color: rgba(1, 1, 1, 0.8);
+  font-size: 50px;
+  margin: 15px;
+  padding: 25px;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 500px) {
+  html {
+    background-image: url("img/background-query.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  body {
+    height: 100vh;
+    width: 80vw;
+  }
+  .container {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 45vw 45vw;
+    margin: 10px;
+    width: 90vw;
+  }
+
+  button {
+    background-color: rgba(1, 1, 1, 0.8);
+    font-size: 50px;
+    margin: 10px;
+    padding: 10px;
+    width: 40vw;
+  }
+  input {
+    border-color: wheat;
+    margin-top: 20px;
+    width: 50vw;
+  }
+
+  #showLog {
+    width: auto;
+  }
+}
