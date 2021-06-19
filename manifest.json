@@ -2,8 +2,8 @@
     "theme_color": "#f69435",
     "background_color": "#f69435",
     "display": "fullscreen",
-    "scope": "/dicesApp",
-    "start_url": "/dicesApp",
+    "scope": "/",
+    "start_url": "/",
     "name": "D&D Dices",
     "short_name": "Dices",
     "icons": [
