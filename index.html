@@ -6,10 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="assets/styles/main.css" rel="stylesheet" />
     <script src="assets/scripts/index.js" defer></script>
+    <link rel="manifest" href="./manifest.json">
+    <script>
+      // Registering our Service worker
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js', { scope: './' })
+      }
+    </script>
     <title>D&D Dices</title>
   </head>
   <body>
-    <input type="text" id="input" />
+    <input type="text" id="input" placeholder="Click a dice ↓↓↓"/>
     <div class="container">
       <button id="buttond4">d4</button>
       <button id="buttond6">d6</button>
