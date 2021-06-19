@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 * {
   color: wheat;
   border-color: wheat;
-  border-radius: 15px;
-  font-family: "MedievalSharp";
+
+  font-family: 'MedievalSharp';
   text-align: center;
 }
 
@@ -12,8 +12,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  background-image: url("img/camp.jpg");
+  background-image: url('img/camp.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -21,7 +20,6 @@ html {
 
 body {
   align-items: center;
-
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -41,12 +39,14 @@ input {
   border-color: transparent;
   display: flex;
   font-size: 50px;
+  border-radius: 15px;
 }
 button {
   background-color: rgba(1, 1, 1, 0.8);
   font-size: 50px;
   margin: 15px;
   padding: 25px;
+  border-radius: 15px;
 }
 
 button:hover {
@@ -55,7 +55,7 @@ button:hover {
 
 @media (max-width: 500px) {
   html {
-    background-image: url("img/background-query.png");
+    background-image: url('img/background-query.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -38,8 +38,6 @@ d20.addEventListener('click', () => {
   writeToLog(input.value);
 });
 
-// showLog.addEventListener("click", () => alert(log));
-
 showLog.addEventListener('click', () =>
   log.length > 0
     ? alert(log)
