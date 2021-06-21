@@ -2,6 +2,7 @@
     "theme_color": "#FBF5F3",
     "background_color": "#FBF5F3",
     "display": "standalone",
+    "orientation": "portrait",
     "scope": "/",
     "start_url": "/",
     "name": "D&D Dices",
