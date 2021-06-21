@@ -2,7 +2,6 @@
 * {
   color: wheat;
   border-color: wheat;
-
   font-family: 'MedievalSharp';
   text-align: center;
 }
@@ -30,22 +29,22 @@ body {
 .container {
   display: flex;
   flex-direction: row;
-  margin: 20px;
-  padding: 20px;
+  margin: 2vh;
+  padding: 2vh;
 }
 
 input {
   background-color: rgba(1, 1, 1, 0.8);
   border-color: transparent;
   display: flex;
-  font-size: 50px;
+  font-size: 5vw;
   border-radius: 15px;
 }
 button {
   background-color: rgba(1, 1, 1, 0.8);
-  font-size: 50px;
-  margin: 15px;
-  padding: 25px;
+  font-size: 5vw;
+  margin: 1vw;
+  padding: 2vw;
   border-radius: 15px;
 }
 
@@ -81,9 +80,10 @@ button:hover {
     width: 40vw;
   }
   input {
-    border-color: wheat;
+    border-color: rgb(246, 210, 142);
     margin-top: 20px;
-    width: 50vw;
+    width: 70vw;
+    font-size: 9vh;
   }
 
   #showLog {
