@@ -1,8 +1,7 @@
 {
     "theme_color": "#FBF5F3",
     "background_color": "#FBF5F3",
-    "display": "standalone",
-    "orientation": "portrait",
+    "display": "fullscreen",
     "scope": "/",
     "start_url": "/",
     "name": "D&D Dices",
