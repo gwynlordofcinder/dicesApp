@@ -33,12 +33,11 @@ body {
   padding: 2vh;
 }
 
-input {
+#output {
   background-color: rgba(1, 1, 1, 0.8);
-  border-color: transparent;
-  display: flex;
   font-size: 5vw;
   border-radius: 15px;
+  width: 50vw;
 }
 button {
   background-color: rgba(1, 1, 1, 0.8);
@@ -79,11 +78,12 @@ button:hover {
     padding: 10px;
     width: 40vw;
   }
-  input {
+  #output {
     border-color: rgb(246, 210, 142);
     margin-top: 20px;
     width: 70vw;
     font-size: 9vh;
+    text-align: center;
   }
 
   #showLog {
