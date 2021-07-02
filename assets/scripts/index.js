@@ -43,5 +43,3 @@ showLog.addEventListener('click', () =>
     ? alert(log)
     : alert("Maybe you should roll a dice first don't you?")
 );
-
-console.dir(output)
